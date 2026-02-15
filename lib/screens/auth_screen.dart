@@ -136,6 +136,34 @@ class _AuthScreenState extends State<AuthScreen> {
     }
   }
 
+  Future<void> _resetPassword() async {
+    final email = _emailController.text.trim();
+    if (email.isEmpty) {
+      _showSnackBar("Entrez votre email pour recevoir le lien de réinitialisation", Colors.orange);
+      return;
+    }
+    setState(() => _isLoading = true);
+    try {
+      await Supabase.instance.client.auth.resetPasswordForEmail(email);
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text("Un email de réinitialisation a été envoyé à $email. Vérifiez aussi vos spams."),
+            backgroundColor: Colors.green,
+            behavior: SnackBarBehavior.floating,
+            duration: const Duration(seconds: 4),
+          ),
+        );
+      }
+    } on AuthException catch (e) {
+      if (mounted) _showSnackBar(e.message, Colors.red);
+    } catch (e) {
+      if (mounted) _showSnackBar("Erreur: impossible d'envoyer l'email. Réessayez plus tard.", Colors.red);
+    } finally {
+      if (mounted) setState(() => _isLoading = false);
+    }
+  }
+
   Future<void> _resendConfirmationEmail(String email) async {
     setState(() => _isLoading = true);
     try {
@@ -309,6 +337,31 @@ class _AuthScreenState extends State<AuthScreen> {
                   _buildTextField(_emailController, "Email", Icons.email_outlined, false),
                   const SizedBox(height: 15),
                   _buildTextField(_passwordController, "Mot de passe", Icons.lock_outline, true),
+                  if (!_isSignUp) ...[
+                    const SizedBox(height: 8),
+                    Align(
+                      alignment: Alignment.centerRight,
+                      child: Material(
+                        color: Colors.green[50],
+                        borderRadius: BorderRadius.circular(8),
+                        child: InkWell(
+                          onTap: _isLoading ? null : _resetPassword,
+                          borderRadius: BorderRadius.circular(8),
+                          child: Padding(
+                            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+                            child: Text(
+                              "Mot de passe oublié ?",
+                              style: TextStyle(
+                                color: Colors.green[700],
+                                fontWeight: FontWeight.w600,
+                                fontSize: 14,
+                              ),
+                            ),
+                          ),
+                        ),
+                      ),
+                    ),
+                  ],
                   const SizedBox(height: 30),
 
                   // 🔹 BOUTON PRINCIPAL YADELI
