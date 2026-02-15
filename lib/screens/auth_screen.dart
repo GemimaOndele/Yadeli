@@ -338,26 +338,18 @@ class _AuthScreenState extends State<AuthScreen> {
                   const SizedBox(height: 15),
                   _buildTextField(_passwordController, "Mot de passe", Icons.lock_outline, true),
                   if (!_isSignUp) ...[
-                    const SizedBox(height: 8),
-                    Align(
-                      alignment: Alignment.centerRight,
-                      child: Material(
-                        color: Colors.green[50],
-                        borderRadius: BorderRadius.circular(8),
-                        child: InkWell(
-                          onTap: _isLoading ? null : _resetPassword,
-                          borderRadius: BorderRadius.circular(8),
-                          child: Padding(
-                            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
-                            child: Text(
-                              "Mot de passe oublié ?",
-                              style: TextStyle(
-                                color: Colors.green[700],
-                                fontWeight: FontWeight.w600,
-                                fontSize: 14,
-                              ),
-                            ),
-                          ),
+                    const SizedBox(height: 12),
+                    SizedBox(
+                      width: double.infinity,
+                      child: TextButton.icon(
+                        onPressed: _isLoading ? null : _resetPassword,
+                        icon: Icon(Icons.lock_reset, size: 18, color: Colors.green[700]),
+                        label: const Text("Mot de passe oublié ?"),
+                        style: TextButton.styleFrom(
+                          foregroundColor: Colors.green[700],
+                          backgroundColor: Colors.green[50],
+                          padding: const EdgeInsets.symmetric(vertical: 12),
+                          alignment: Alignment.center,
                         ),
                       ),
                     ),
