@@ -83,18 +83,11 @@ flutter analyze
    - **Project URL** : `https://xxxxx.supabase.co`
    - **anon public** : clé JWT commençant par `eyJ...`
 
-### Étape C : Modifier le code Flutter
+### Étape C : Configurer les clés (local uniquement)
 
-Ouvrir `lib/main.dart` et remplacer les placeholders :
-
-```dart
-await Supabase.initialize(
-  url: 'https://VOTRE_PROJECT.supabase.co',
-  anonKey: 'VOTRE_CLE_ANON',
-);
-// ...
-MapboxOptions.setAccessToken('VOTRE_TOKEN_MAPBOX');
-```
+1. Copier le fichier exemple : `lib/config.dart.example` → `lib/config.dart`
+2. Éditer `lib/config.dart` et remplacer les placeholders par vos clés
+3. `config.dart` est dans `.gitignore` — **ne sera jamais publié sur GitHub**
 
 ### Étape D : Appliquer les migrations
 

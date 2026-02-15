@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:mapbox_maps_flutter/mapbox_maps_flutter.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
+import 'config.dart';
 import 'l10n/app_localizations.dart';
 import 'services/profile_service.dart';
 import 'services/locale_service.dart';
@@ -19,14 +20,13 @@ Future<void> main() async {
 
   await LocaleService.init();
 
-  // ⚠️ Remplacer par vos clés (voir DOC_DEVELOPPEUR.md)
   await Supabase.initialize(
-    url: 'https://VOTRE_PROJECT.supabase.co',
-    anonKey: 'VOTRE_CLE_ANON',
+    url: supabaseUrl,
+    anonKey: supabaseAnonKey,
   );
 
   if (isMapboxSupported) {
-    MapboxOptions.setAccessToken('VOTRE_TOKEN_MAPBOX');
+    MapboxOptions.setAccessToken(mapboxToken);
   }
 
   runApp(const MyApp());

@@ -48,3 +48,6 @@ android/build/
 
 # Backend env (secrets)
 backend_app/.env
+
+# Clés API (Supabase, Mapbox) — jamais publier
+lib/config.dart

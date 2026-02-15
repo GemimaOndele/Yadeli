@@ -1,0 +1,6 @@
+/// Exemple de configuration — copier en config.dart et remplir vos clés.
+/// config.dart est dans .gitignore et ne sera jamais publié.
+
+const String supabaseUrl = 'https://VOTRE_PROJECT.supabase.co';
+const String supabaseAnonKey = 'VOTRE_CLE_ANON';
+const String mapboxToken = 'VOTRE_TOKEN_MAPBOX';
