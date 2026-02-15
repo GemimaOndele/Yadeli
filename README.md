@@ -6,11 +6,11 @@
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
 </p>
 
-<h1 align="center">🚕 Yadeli <img src="assets/images/drapeau_congo.png" alt="Drapeau Congo" width="32" height="22" /></h1>
-<h3 align="center">Application de logistique et transport au Congo</h3>
+<h1 align="center">🚕 Yadeli</h1>
+<h3 align="center">Application de logistique et transport au Congo <img src="assets/images/drapeau_congo.png" alt="Drapeau Congo" width="28" height="19" /></h3>
 
 <p align="center">
-  <em>Brazzaville — Congo</em>
+  <em>dans la ville de Brazzaville</em>
 </p>
 
 ---
@@ -29,7 +29,7 @@
 
 ## 🎯 Présentation
 
-**Yadeli** est une application de **logistique et transport** au **Congo**. Déployée en premier lieu à **Brazzaville**, ville à la plus forte concentration de population, elle sera étendue progressivement au reste du territoire congolais, puis à l'international en commençant par la France.
+**Yadeli** est une application de **logistique et transport** au **Congo** <img src="assets/images/drapeau_congo.png" alt="Drapeau Congo" width="24" height="16" />. Déployée en premier lieu **dans la ville de Brazzaville**, ville à la plus forte concentration de population, elle sera étendue progressivement au reste du territoire congolais, puis à l'international en commençant par la France.
 
 ### Services proposés
 
@@ -177,5 +177,5 @@ Les contributions sont les bienvenues. Voir [DOC_DEVELOPPEUR.md](DOC_DEVELOPPEUR
 ---
 
 <p align="center">
-  <strong>Yadeli</strong> — Logistique & Transport au Congo · Brazzaville
+  <strong>Yadeli</strong> — Logistique & Transport au Congo <img src="assets/images/drapeau_congo.png" alt="Drapeau Congo" width="20" height="14" /> · dans la ville de Brazzaville
 </p>

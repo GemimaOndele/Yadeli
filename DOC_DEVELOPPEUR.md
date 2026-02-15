@@ -1,6 +1,6 @@
 # 📘 Guide Développeur — Yadeli
 
-> Documentation complète pour configurer et faire fonctionner l'application Yadeli (logistique & transport au Congo, dans la ville de Brazzaville).
+> Documentation complète pour configurer et faire fonctionner l'application Yadeli (logistique & transport au Congo <img src="assets/images/drapeau_congo.png" alt="Drapeau Congo" width="20" height="14" />, dans la ville de Brazzaville).
 
 ---
 
@@ -322,5 +322,5 @@ flutter run -d ios
 ---
 
 <p align="center">
-  📘 <strong>Documentation développeur Yadeli</strong> — Logistique & Transport au Congo
+  📘 <strong>Documentation développeur Yadeli</strong> — Logistique & Transport au Congo <img src="assets/images/drapeau_congo.png" alt="Drapeau Congo" width="20" height="14" /> · dans la ville de Brazzaville
 </p>

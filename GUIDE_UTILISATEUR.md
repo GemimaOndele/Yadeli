@@ -6,7 +6,7 @@
 
 ## 🎯 Qu'est-ce que Yadeli ?
 
-**Yadeli** est une application de **logistique et transport** au **Congo**. Elle est déployée à **Brazzaville** et propose les services suivants :
+**Yadeli** est une application de **logistique et transport** au **Congo** <img src="assets/images/drapeau_congo.png" alt="Drapeau Congo" width="20" height="14" />. Elle est déployée **dans la ville de Brazzaville** et propose les services suivants :
 
 | Service                     | Description                               |
 | --------------------------- | ----------------------------------------- |
@@ -179,5 +179,5 @@ L'estimation peut varier selon le trafic ou les options. Le prix final est confi
 ---
 
 <p align="center">
-  📗 <strong>Guide utilisateur Yadeli</strong> — Logistique & Transport au Congo · dans la ville de Brazzaville
+  📗 <strong>Guide utilisateur Yadeli</strong> — Logistique & Transport au Congo <img src="assets/images/drapeau_congo.png" alt="Drapeau Congo" width="20" height="14" /> · dans la ville de Brazzaville
 </p>
