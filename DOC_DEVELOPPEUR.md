@@ -1,6 +1,6 @@
-# 📘 Guide Développeur — Yadeli 🇨🇬
+# 📘 Guide Développeur — Yadeli
 
-> Documentation complète pour configurer et faire fonctionner l'application Yadeli (logistique & transport au Congo, Brazzaville).
+> Documentation complète pour configurer et faire fonctionner l'application Yadeli (logistique & transport au Congo, dans la ville de Brazzaville).
 
 ---
 
@@ -10,8 +10,8 @@
 2. [Cloner et installer](#-2-cloner-et-installer)
 3. [Configuration Supabase](#-3-configuration-supabase)
 4. [Configuration Mapbox](#-4-configuration-mapbox)
-5. [Variables d'environnement](#-5-variables-denvironnement)
-6. [Lancer l'application](#-6-lancer-lapplication)
+5. [Variables d&#39;environnement](#-5-variables-denvironnement)
+6. [Lancer l&#39;application](#-6-lancer-lapplication)
 7. [Commandes utiles](#-7-commandes-utiles)
 8. [Structure du code](#-8-structure-du-code)
 9. [Dépannage](#-9-dépannage)
@@ -22,13 +22,13 @@
 
 ### Outils à installer
 
-| Outil | Version | Lien | Vérification |
-|-------|---------|------|--------------|
-| **Flutter** | 3.2+ | [flutter.dev](https://docs.flutter.dev/get-started/install) | `flutter --version` |
-| **Git** | 2.x | [git-scm.com](https://git-scm.com) | `git --version` |
-| **Android Studio** | - | [developer.android.com](https://developer.android.com/studio) | Émulateur Android, build |
-| **CMake** | 3.x | Inclus avec Flutter | Build Windows/Linux |
-| **VS Code** ou **Cursor** | - | - | Éditeur recommandé |
+| Outil                                 | Version | Lien                                                       | Vérification             |
+| ------------------------------------- | ------- | ---------------------------------------------------------- | ------------------------- |
+| **Flutter**                     | 3.2+    | [flutter.dev](https://docs.flutter.dev/get-started/install)   | `flutter --version`     |
+| **Git**                         | 2.x     | [git-scm.com](https://git-scm.com)                            | `git --version`         |
+| **Android Studio**              | -       | [developer.android.com](https://developer.android.com/studio) | Émulateur Android, build |
+| **CMake**                       | 3.x     | Inclus avec Flutter                                        | Build Windows/Linux       |
+| **VS Code** ou **Cursor** | -       | -                                                          | Éditeur recommandé      |
 
 ### Vérifier Flutter
 
@@ -105,6 +105,7 @@ supabase db push
 ```
 
 **Fichiers à exécuter dans l'ordre :**
+
 1. `20251223005102_init_schema.sql`
 2. `20251223014306_create_orders_table.sql`
 
@@ -249,18 +250,18 @@ flutter run -d ios
 
 ## 📜 7. Commandes utiles
 
-| Commande | Description |
-|----------|-------------|
-| `flutter pub get` | Installer les dépendances |
-| `flutter clean` | Nettoyer le cache de build |
-| `flutter analyze` | Vérifier le code |
-| `flutter test` | Lancer les tests |
-| `flutter devices` | Lister les appareils |
-| `flutter run` | Lancer en mode debug |
-| `flutter run --release` | Lancer en mode release |
-| `flutter build apk` | Générer l'APK Android |
-| `flutter build web` | Générer le build Web |
-| `flutter build windows` | Générer l'exe Windows |
+| Commande                  | Description                |
+| ------------------------- | -------------------------- |
+| `flutter pub get`       | Installer les dépendances |
+| `flutter clean`         | Nettoyer le cache de build |
+| `flutter analyze`       | Vérifier le code          |
+| `flutter test`          | Lancer les tests           |
+| `flutter devices`       | Lister les appareils       |
+| `flutter run`           | Lancer en mode debug       |
+| `flutter run --release` | Lancer en mode release     |
+| `flutter build apk`     | Générer l'APK Android    |
+| `flutter build web`     | Générer le build Web     |
+| `flutter build windows` | Générer l'exe Windows    |
 
 ---
 
@@ -268,24 +269,24 @@ flutter run -d ios
 
 ### Écrans principaux
 
-| Fichier | Rôle |
-|---------|------|
-| `auth_screen.dart` | Inscription / Connexion |
-| `verify_otp_screen.dart` | Saisie du code OTP |
-| `map_order_screen.dart` | Carte, commande, menu principal |
-| `booking_flow_screen.dart` | Flux de réservation |
-| `ride_in_progress_screen.dart` | Trajet en cours |
-| `ai_chat_support_screen.dart` | Assistance IA |
-| `client_space_screen.dart` | Espace client |
+| Fichier                          | Rôle                           |
+| -------------------------------- | ------------------------------- |
+| `auth_screen.dart`             | Inscription / Connexion         |
+| `verify_otp_screen.dart`       | Saisie du code OTP              |
+| `map_order_screen.dart`        | Carte, commande, menu principal |
+| `booking_flow_screen.dart`     | Flux de réservation            |
+| `ride_in_progress_screen.dart` | Trajet en cours                 |
+| `ai_chat_support_screen.dart`  | Assistance IA                   |
+| `client_space_screen.dart`     | Espace client                   |
 
 ### Services
 
-| Service | Rôle |
-|---------|------|
-| `user_service.dart` | Profil utilisateur, Supabase |
-| `order_service.dart` | Création de commandes |
-| `locale_service.dart` | Langue, contraste |
-| `location_service.dart` | Géolocalisation |
+| Service                   | Rôle                        |
+| ------------------------- | ---------------------------- |
+| `user_service.dart`     | Profil utilisateur, Supabase |
+| `order_service.dart`    | Création de commandes       |
+| `locale_service.dart`   | Langue, contraste            |
+| `location_service.dart` | Géolocalisation             |
 
 ---
 
@@ -321,5 +322,5 @@ flutter run -d ios
 ---
 
 <p align="center">
-  📘 <strong>Documentation développeur Yadeli</strong> 🇨🇬 — Logistique & Transport au Congo
+  📘 <strong>Documentation développeur Yadeli</strong> — Logistique & Transport au Congo
 </p>

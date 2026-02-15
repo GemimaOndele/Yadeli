@@ -1,4 +1,4 @@
-# 📗 Guide Utilisateur — Yadeli 🇨🇬
+# 📗 Guide Utilisateur — Yadeli
 
 > Guide clair et explicatif pour utiliser l'application Yadeli.
 
@@ -6,19 +6,19 @@
 
 ## 🎯 Qu'est-ce que Yadeli ?
 
-**Yadeli** 🇨🇬 est une application de **logistique et transport** au **Congo** (République du Congo — drapeau vert, jaune, rouge). Elle est déployée à **Brazzaville** et propose les services suivants :
+**Yadeli** est une application de **logistique et transport** au **Congo**. Elle est déployée à **Brazzaville** et propose les services suivants :
 
-| Service | Description |
-|---------|-------------|
-| 🏍️ **Moto Express** | Livraison rapide à moto |
-| 🚗 **Yadeli Auto** | Course en voiture confort, climatisation |
-| 💊 **Pharmacie** | Livraison de médicaments |
-| 🍽️ **Alimentaire** | Restaurants, snacks, plats à domicile |
-| 🛒 **Boutique** | Produits de boutiques |
-| 💄 **Cosmétique** | Produits de beauté |
-| 🧺 **Marché** | Marchés publics et locaux |
-| 📦 **Livraison Colis** | Colis sécurisé avec preuve de livraison |
-| 🚚 **Déménagement** | Camion, aides, transport de meubles |
+| Service                     | Description                               |
+| --------------------------- | ----------------------------------------- |
+| 🏍️**Moto Express**  | Livraison rapide à moto                  |
+| 🚗**Yadeli Auto**     | Course en voiture confort, climatisation  |
+| 💊**Pharmacie**       | Livraison de médicaments                 |
+| 🍽️**Alimentaire**   | Restaurants, snacks, plats à domicile    |
+| 🛒**Boutique**        | Produits de boutiques                     |
+| 💄**Cosmétique**     | Produits de beauté                       |
+| 🧺**Marché**         | Marchés publics et locaux                |
+| 📦**Livraison Colis** | Colis sécurisé avec preuve de livraison |
+| 🚚**Déménagement**  | Camion, aides, transport de meubles       |
 
 ---
 
@@ -55,6 +55,7 @@ Une fois le code vérifié, vous arrivez sur la **carte principale** avec le men
 ### Autoriser la localisation
 
 L'app a besoin de votre position pour :
+
 - Afficher votre position sur la carte
 - Calculer les trajets
 - Trouver les adresses de prise en charge et de livraison
@@ -92,7 +93,7 @@ L'app a besoin de votre position pour :
 
 ---
 
-## 💊 Pharmacie, 🍽️ Alimentaire, 🛒 Boutique, 💄 Cosmétique, 🧺 Marché
+## 💊 Pharmacie, 🍽️ Alimentaire, 🛒 Boutique, 💄 Cosmétique, 🧺 Marché, 📦Livraison Colis,  🚚**Déménagement**
 
 1. Choisir le service souhaité
 2. Indiquer les adresses de départ et d'arrivée
@@ -178,5 +179,5 @@ L'estimation peut varier selon le trafic ou les options. Le prix final est confi
 ---
 
 <p align="center">
-  📗 <strong>Guide utilisateur Yadeli</strong> 🇨🇬 — Logistique & Transport au Congo · Brazzaville
+  📗 <strong>Guide utilisateur Yadeli</strong> — Logistique & Transport au Congo · dans la ville de Brazzaville
 </p>

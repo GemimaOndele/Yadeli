@@ -6,11 +6,11 @@
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
 </p>
 
-<h1 align="center">🚕 Yadeli 🇨🇬</h1>
+<h1 align="center">🚕 Yadeli <img src="assets/images/drapeau_congo.png" alt="Drapeau Congo" width="32" height="22" /></h1>
 <h3 align="center">Application de logistique et transport au Congo</h3>
 
 <p align="center">
-  <em>Brazzaville — République du Congo (vert, jaune, rouge)</em>
+  <em>Brazzaville — Congo</em>
 </p>
 
 ---
@@ -29,21 +29,21 @@
 
 ## 🎯 Présentation
 
-**Yadeli** 🇨🇬 est une application de **logistique et transport** au **Congo** (République du Congo — drapeau vert, jaune, rouge). Déployée en premier lieu à **Brazzaville**, ville à la plus forte concentration de population, elle sera étendue progressivement au reste du territoire congolais, puis à l'international en commençant par la France.
+**Yadeli** est une application de **logistique et transport** au **Congo**. Déployée en premier lieu à **Brazzaville**, ville à la plus forte concentration de population, elle sera étendue progressivement au reste du territoire congolais, puis à l'international en commençant par la France.
 
 ### Services proposés
 
-| Service | Description |
-|---------|-------------|
-| 🏍️ **Moto Express** | Livraison rapide à moto |
-| 🚗 **Yadeli Auto** | Course en voiture confort, climatisation |
-| 💊 **Pharmacie** | Livraison de médicaments |
-| 🍽️ **Alimentaire** | Restaurants, snacks, plats à domicile |
-| 🛒 **Boutique** | Produits de boutiques |
-| 💄 **Cosmétique** | Produits de beauté |
-| 🧺 **Marché** | Marchés publics et locaux |
-| 📦 **Livraison Colis** | Colis sécurisé avec preuve de livraison |
-| 🚚 **Déménagement** | Camion, aides, transport de meubles |
+| Service                     | Description                               |
+| --------------------------- | ----------------------------------------- |
+| 🏍️**Moto Express**  | Livraison rapide à moto                  |
+| 🚗**Yadeli Auto**     | Course en voiture confort, climatisation  |
+| 💊**Pharmacie**       | Livraison de médicaments                 |
+| 🍽️**Alimentaire**   | Restaurants, snacks, plats à domicile    |
+| 🛒**Boutique**        | Produits de boutiques                     |
+| 💄**Cosmétique**     | Produits de beauté                       |
+| 🧺**Marché**         | Marchés publics et locaux                |
+| 📦**Livraison Colis** | Colis sécurisé avec preuve de livraison |
+| 🚚**Déménagement**  | Camion, aides, transport de meubles       |
 
 Interface multilingue : **Français**, **Anglais**, **Lingala**, **Kituba**.
 
@@ -52,22 +52,26 @@ Interface multilingue : **Français**, **Anglais**, **Lingala**, **Kituba**.
 ## ✨ Fonctionnalités
 
 ### 🔐 Authentification
+
 - Inscription / Connexion par email
 - Vérification OTP par email (code à 8 chiffres)
 - Gestion du profil utilisateur (nom, téléphone, photo, langues)
 
 ### 🗺️ Carte & Localisation
+
 - Carte interactive (Mapbox sur mobile, Flutter Map sur Web/Desktop)
 - Géolocalisation et recherche d'adresses
 - Partage de position en temps réel
 
 ### 📱 Services
+
 - **Espace client** : historique des trajets, factures, récapitulatifs
 - **Assistance IA** : chat vocal et texte pour le support
 - **Paiement** : intégration prête pour les moyens de paiement
 - **Notifications** : SMS/Email/WhatsApp (mode démo)
 
 ### ⚙️ Paramètres
+
 - Choix de la langue (FR, EN, Lingala, Kituba)
 - Réglage du contraste visuel
 - Thème Material 3
@@ -76,20 +80,21 @@ Interface multilingue : **Français**, **Anglais**, **Lingala**, **Kituba**.
 
 ## 🛠️ Stack technique
 
-| Outil | Rôle |
-|-------|------|
-| **Flutter 3.x** | Framework UI multiplateforme |
-| **Dart 3.2+** | Langage |
-| **Supabase** | Backend (Auth, base de données, Edge Functions) |
-| **Mapbox** | Cartes sur Android/iOS |
-| **Flutter Map** | Cartes sur Web/Windows |
-| **CMake** | Build (Linux, Windows) |
-| **Android Studio** | Développement Android |
-| **TypeScript** | Edge Functions Supabase |
-| **JSON** | Données, configuration |
-| **HTML / CSS** | Web |
+| Outil                    | Rôle                                            |
+| ------------------------ | ------------------------------------------------ |
+| **Flutter 3.x**    | Framework UI multiplateforme                     |
+| **Dart 3.2+**      | Langage                                          |
+| **Supabase**       | Backend (Auth, base de données, Edge Functions) |
+| **Mapbox**         | Cartes sur Android/iOS                           |
+| **Flutter Map**    | Cartes sur Web/Windows                           |
+| **CMake**          | Build (Linux, Windows)                           |
+| **Android Studio** | Développement Android                           |
+| **TypeScript**     | Edge Functions Supabase                          |
+| **JSON**           | Données, configuration                          |
+| **HTML / CSS**     | Web                                              |
 
 ### Dépendances principales
+
 - `supabase_flutter` — Authentification & base de données
 - `geolocator` / `geocoding` — Localisation
 - `mapbox_maps_flutter` — Cartes mobiles
@@ -132,6 +137,7 @@ yadeli/
 ## 🚀 Démarrage rapide
 
 ### Prérequis
+
 - **Flutter SDK** 3.2+ ([Installation](https://docs.flutter.dev/get-started/install))
 - **Compte Supabase** ([supabase.com](https://supabase.com))
 - **Clé Mapbox** ([mapbox.com](https://mapbox.com)) — pour Android/iOS
@@ -156,11 +162,11 @@ flutter run
 
 ## 📚 Documentation
 
-| Document | Contenu |
-|----------|---------|
-| [DOC_DEVELOPPEUR.md](DOC_DEVELOPPEUR.md) | Configuration, commandes, étapes de A à Z pour développeurs |
-| [GUIDE_UTILISATEUR.md](GUIDE_UTILISATEUR.md) | Guide utilisateur de l'application |
-| [SUPABASE_CONFIG.md](SUPABASE_CONFIG.md) | Configuration emails, OTP, Site URL Supabase |
+| Document                                  | Contenu                                                        |
+| ----------------------------------------- | -------------------------------------------------------------- |
+| [DOC_DEVELOPPEUR.md](DOC_DEVELOPPEUR.md)     | Configuration, commandes, étapes de A à Z pour développeurs |
+| [GUIDE_UTILISATEUR.md](GUIDE_UTILISATEUR.md) | Guide utilisateur de l'application                             |
+| [SUPABASE_CONFIG.md](SUPABASE_CONFIG.md)     | Configuration emails, OTP, Site URL Supabase                   |
 
 ---
 
@@ -171,5 +177,5 @@ Les contributions sont les bienvenues. Voir [DOC_DEVELOPPEUR.md](DOC_DEVELOPPEUR
 ---
 
 <p align="center">
-  <strong>Yadeli</strong> 🇨🇬 — Logistique & Transport au Congo · Brazzaville
+  <strong>Yadeli</strong> — Logistique & Transport au Congo · Brazzaville
 </p>
