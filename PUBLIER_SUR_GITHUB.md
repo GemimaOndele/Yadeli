@@ -12,7 +12,7 @@
 2. Cliquer sur **« + »** → **« New repository »**
 3. Remplir :
    - **Repository name** : `yadeli` (ou autre nom)
-   - **Description** : `Application de transport & livraison à Brazzaville`
+   - **Description** : `Application de logistique et transport au Congo 🇨🇬 — Brazzaville`
    - **Visibility** : Public ou Private
    - ⚠️ **Ne pas** cocher « Initialize with README » (le projet en a déjà un)
 4. Cliquer sur **« Create repository »**

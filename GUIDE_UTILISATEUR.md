@@ -1,4 +1,4 @@
-# 📗 Guide Utilisateur — Yadeli
+# 📗 Guide Utilisateur — Yadeli 🇨🇬
 
 > Guide clair et explicatif pour utiliser l'application Yadeli.
 
@@ -6,11 +6,19 @@
 
 ## 🎯 Qu'est-ce que Yadeli ?
 
-**Yadeli** est une application de transport et livraison à Brazzaville. Elle permet de :
+**Yadeli** 🇨🇬 est une application de **logistique et transport** au **Congo** (République du Congo — drapeau vert, jaune, rouge). Elle est déployée à **Brazzaville** et propose les services suivants :
 
-- 🚗 Réserver une course (type taxi)
-- 📦 Envoyer un colis
-- 🚚 Organiser un déménagement
+| Service | Description |
+|---------|-------------|
+| 🏍️ **Moto Express** | Livraison rapide à moto |
+| 🚗 **Yadeli Auto** | Course en voiture confort, climatisation |
+| 💊 **Pharmacie** | Livraison de médicaments |
+| 🍽️ **Alimentaire** | Restaurants, snacks, plats à domicile |
+| 🛒 **Boutique** | Produits de boutiques |
+| 💄 **Cosmétique** | Produits de beauté |
+| 🧺 **Marché** | Marchés publics et locaux |
+| 📦 **Livraison Colis** | Colis sécurisé avec preuve de livraison |
+| 🚚 **Déménagement** | Camion, aides, transport de meubles |
 
 ---
 
@@ -62,9 +70,9 @@ L'app a besoin de votre position pour :
 
 ---
 
-## 🚗 Réserver une course
+## 🏍️ Moto Express & 🚗 Yadeli Auto
 
-1. Depuis le menu, choisir **« Course »** ou **« Livraison »**
+1. Depuis le menu, choisir **« Moto Express »** ou **« Yadeli Auto »**
 2. Indiquer :
    - **Lieu de prise en charge**
    - **Lieu de livraison**
@@ -73,13 +81,21 @@ L'app a besoin de votre position pour :
 
 ---
 
-## 📦 Envoyer un colis
+## 📦 Livraison Colis
 
-1. Choisir **« Livraison »**
+1. Choisir **« Livraison Colis »**
 2. Renseigner :
    - Adresse de prise en charge
    - Adresse de livraison
    - Type de colis (optionnel)
+3. Valider la commande
+
+---
+
+## 💊 Pharmacie, 🍽️ Alimentaire, 🛒 Boutique, 💄 Cosmétique, 🧺 Marché
+
+1. Choisir le service souhaité
+2. Indiquer les adresses de départ et d'arrivée
 3. Valider la commande
 
 ---
@@ -162,5 +178,5 @@ L'estimation peut varier selon le trafic ou les options. Le prix final est confi
 ---
 
 <p align="center">
-  📗 <strong>Guide utilisateur Yadeli</strong> — Transport & Livraison à Brazzaville 🇨🇬
+  📗 <strong>Guide utilisateur Yadeli</strong> 🇨🇬 — Logistique & Transport au Congo · Brazzaville
 </p>

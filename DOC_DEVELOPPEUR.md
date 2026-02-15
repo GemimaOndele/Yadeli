@@ -1,6 +1,6 @@
-# 📘 Guide Développeur — Yadeli
+# 📘 Guide Développeur — Yadeli 🇨🇬
 
-> Documentation complète pour configurer et faire fonctionner l'application Yadeli de A à Z.
+> Documentation complète pour configurer et faire fonctionner l'application Yadeli (logistique & transport au Congo, Brazzaville).
 
 ---
 
@@ -26,7 +26,8 @@
 |-------|---------|------|--------------|
 | **Flutter** | 3.2+ | [flutter.dev](https://docs.flutter.dev/get-started/install) | `flutter --version` |
 | **Git** | 2.x | [git-scm.com](https://git-scm.com) | `git --version` |
-| **Android Studio** (optionnel) | - | [developer.android.com](https://developer.android.com/studio) | Pour émulateur Android |
+| **Android Studio** | - | [developer.android.com](https://developer.android.com/studio) | Émulateur Android, build |
+| **CMake** | 3.x | Inclus avec Flutter | Build Windows/Linux |
 | **VS Code** ou **Cursor** | - | - | Éditeur recommandé |
 
 ### Vérifier Flutter
@@ -320,5 +321,5 @@ flutter run -d ios
 ---
 
 <p align="center">
-  📘 <strong>Documentation développeur Yadeli</strong> — Mise à jour : 2025
+  📘 <strong>Documentation développeur Yadeli</strong> 🇨🇬 — Logistique & Transport au Congo
 </p>

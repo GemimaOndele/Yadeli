@@ -2,13 +2,15 @@
   <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" />
   <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
   <img src="https://img.shields.io/badge/Mapbox-000000?style=for-the-badge&logo=mapbox&logoColor=white" alt="Mapbox" />
+  <img src="https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white" alt="CMake" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
 </p>
 
-<h1 align="center">🚕 Yadeli</h1>
-<h3 align="center">Application de transport & livraison à Brazzaville</h3>
+<h1 align="center">🚕 Yadeli 🇨🇬</h1>
+<h3 align="center">Application de logistique et transport au Congo</h3>
 
 <p align="center">
-  <em>Inspirée d'Uber, Bolt et Citymapper — Livraison, courses, déménagement</em>
+  <em>Brazzaville — République du Congo (vert, jaune, rouge)</em>
 </p>
 
 ---
@@ -27,15 +29,23 @@
 
 ## 🎯 Présentation
 
-**Yadeli** est une application mobile multiplateforme (Android, iOS, Web, Windows) permettant de :
+**Yadeli** 🇨🇬 est une application de **logistique et transport** au **Congo** (République du Congo — drapeau vert, jaune, rouge). Déployée en premier lieu à **Brazzaville**, ville à la plus forte concentration de population, elle sera étendue progressivement au reste du territoire congolais, puis à l'international en commençant par la France.
+
+### Services proposés
 
 | Service | Description |
 |---------|-------------|
-| 🚗 **Courses** | Réservation de trajets type taxi/VTC |
-| 📦 **Livraison** | Envoi de colis à domicile |
-| 🚚 **Déménagement** | Services de déménagement avec estimation de prix |
+| 🏍️ **Moto Express** | Livraison rapide à moto |
+| 🚗 **Yadeli Auto** | Course en voiture confort, climatisation |
+| 💊 **Pharmacie** | Livraison de médicaments |
+| 🍽️ **Alimentaire** | Restaurants, snacks, plats à domicile |
+| 🛒 **Boutique** | Produits de boutiques |
+| 💄 **Cosmétique** | Produits de beauté |
+| 🧺 **Marché** | Marchés publics et locaux |
+| 📦 **Livraison Colis** | Colis sécurisé avec preuve de livraison |
+| 🚚 **Déménagement** | Camion, aides, transport de meubles |
 
-L'app cible le marché de **Brazzaville (Congo)** et propose une interface multilingue (Français, Anglais, Lingala, Kituba).
+Interface multilingue : **Français**, **Anglais**, **Lingala**, **Kituba**.
 
 ---
 
@@ -69,10 +79,15 @@ L'app cible le marché de **Brazzaville (Congo)** et propose une interface multi
 | Outil | Rôle |
 |-------|------|
 | **Flutter 3.x** | Framework UI multiplateforme |
-| **Supabase** | Backend (Auth, Base de données, Edge Functions) |
+| **Dart 3.2+** | Langage |
+| **Supabase** | Backend (Auth, base de données, Edge Functions) |
 | **Mapbox** | Cartes sur Android/iOS |
 | **Flutter Map** | Cartes sur Web/Windows |
-| **Dart 3.2+** | Langage |
+| **CMake** | Build (Linux, Windows) |
+| **Android Studio** | Développement Android |
+| **TypeScript** | Edge Functions Supabase |
+| **JSON** | Données, configuration |
+| **HTML / CSS** | Web |
 
 ### Dépendances principales
 - `supabase_flutter` — Authentification & base de données
@@ -156,5 +171,5 @@ Les contributions sont les bienvenues. Voir [DOC_DEVELOPPEUR.md](DOC_DEVELOPPEUR
 ---
 
 <p align="center">
-  <strong>Yadeli</strong> — Transport & Livraison à Brazzaville 🇨🇬
+  <strong>Yadeli</strong> 🇨🇬 — Logistique & Transport au Congo · Brazzaville
 </p>
